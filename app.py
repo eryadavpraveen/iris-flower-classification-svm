@@ -18,8 +18,6 @@ def load_model():
     return model
 
 
-
-
 def preprocessing_input_data(data):
     df = pd.DataFrame([data])
     return df
